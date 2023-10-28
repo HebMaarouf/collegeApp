@@ -1,0 +1,24 @@
+2023-10-28 04:50:58.105 +02:00 [INF] Now listening on: https://localhost:7103
+2023-10-28 04:50:58.284 +02:00 [INF] Now listening on: http://localhost:5103
+2023-10-28 04:50:58.291 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-10-28 04:50:58.292 +02:00 [INF] Hosting environment: Development
+2023-10-28 04:50:58.292 +02:00 [INF] Content root path: C:\Users\vs\source\repos\collegeApp\collegeApp\
+2023-10-28 04:51:02.501 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7103/swagger/index.html - -
+2023-10-28 04:51:05.651 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7103/swagger/index.html - - - 200 - text/html;charset=utf-8 3180.1504ms
+2023-10-28 04:51:05.878 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7103/_framework/aspnetcore-browser-refresh.js - -
+2023-10-28 04:51:05.901 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7103/_framework/aspnetcore-browser-refresh.js - - - 200 12318 application/javascript;+charset=utf-8 22.8867ms
+2023-10-28 04:51:08.426 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7103/swagger/v1/swagger.json - -
+2023-10-28 04:51:09.298 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7103/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 872.2340ms
+2023-10-28 04:51:37.093 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7103/api/Loggers - -
+2023-10-28 04:51:37.148 +02:00 [INF] Executing endpoint 'collegeApp.Controllers.LoggersController.Index (collegeApp)'
+2023-10-28 04:51:37.192 +02:00 [INF] Route matched with {action = "Index", controller = "Loggers"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Index() on controller collegeApp.Controllers.LoggersController (collegeApp).
+2023-10-28 04:51:37.461 +02:00 [INF] Executing action method collegeApp.Controllers.LoggersController.Index (collegeApp) - Validation state: "Valid"
+2023-10-28 04:51:37.466 +02:00 [INF] log message from Information level
+2023-10-28 04:51:37.466 +02:00 [WRN] log message from Warning level
+2023-10-28 04:51:37.467 +02:00 [ERR] log message from Error level
+2023-10-28 04:51:37.467 +02:00 [FTL] log message from Critical level
+2023-10-28 04:51:37.480 +02:00 [INF] Executed action method collegeApp.Controllers.LoggersController.Index (collegeApp), returned result Microsoft.AspNetCore.Mvc.OkResult in 1.7815ms.
+2023-10-28 04:51:37.495 +02:00 [INF] Executing StatusCodeResult, setting HTTP status code 200
+2023-10-28 04:51:37.509 +02:00 [INF] Executed action collegeApp.Controllers.LoggersController.Index (collegeApp) in 301.6825ms
+2023-10-28 04:51:37.509 +02:00 [INF] Executed endpoint 'collegeApp.Controllers.LoggersController.Index (collegeApp)'
+2023-10-28 04:51:37.509 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7103/api/Loggers - - - 200 0 - 416.2889ms
